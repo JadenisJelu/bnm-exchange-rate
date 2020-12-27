@@ -9,7 +9,7 @@ urllib3.disable_warnings()
 # header configuration
 headers = {
     'accept': 'application/json',
-    'Authorization': }
+    'Authorization': PERSONAL KEY HERE}
 
 def get_response():
     response = requests.get('https://api.oip.tmrnd.com.my/app/t/opendata.oip.tm.com.my/bnm/1.0.0/exchange-rate', headers=headers, verify=False)
